@@ -28,5 +28,8 @@
 .saveBtn {
     cursor: pointer;
     border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    margin-left: 1330px;
 
 }
