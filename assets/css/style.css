@@ -1,0 +1,7 @@
+.textArea {
+        transition: box-shadow 0.3s ease; /* gölge efektinin mause çıktıntan veya girdikten sonra kaç sn duracağını belirler 0/
+}
+textarea:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Gölge efekti */
+  }
+/* textarea ya fare üzerine geldiğinde gölge efekti koymasını sağlar      */
