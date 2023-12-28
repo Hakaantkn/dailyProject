@@ -3,23 +3,21 @@
         border-radius: 15px;
         margin-left: 1060px;
         background-color: bisque;
-        border: 1px solid black;
 
 }
 #dailyNote:hover {
-    box-shadow: 0 0 30px rgb(255, 255, 255); /* Gölge efekti */
+    box-shadow: 0 0 5px rgb(255, 255, 255); /* Gölge efekti */
 
   }
 /* textarea ya fare üzerine geldiğinde gölge efekti koymasını sağlar      */
 .box {
-    margin-left: 1060px;
-    width: 266px; 
+    width: 230px; 
     height: 200px; 
     background-color: bisque; 
     border: 1px solid black; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    overflow: scroll;
+    overflow: hidden;
     color: white;
     transition: box-shadow 0.3s;
   }
