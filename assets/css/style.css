@@ -8,7 +8,7 @@
 }
 #dailyNote:hover {
     box-shadow: 0 0 30px rgb(255, 255, 255); /* Gölge efekti */
-
+    background-color: white;
   }
 /* textarea ya fare üzerine geldiğinde gölge efekti koymasını sağlar      */
 .box {
@@ -19,12 +19,14 @@
     border: 1px solid black; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    overflow: scroll;
+    overflow: auto;
     color: white;
     transition: box-shadow 0.3s;
+    overflow-wrap: break-word;
   }
 .box:hover{
-    box-shadow: 0 0 50px;
+    box-shadow: 0 0 30px;
+    color: black;
 
   }
 #header {
@@ -38,5 +40,11 @@
     background-color: transparent;
     color: white;
     margin-left: 1330px;
+    transition: box-shadow 0.3s;
+    border: 2px solid pink;
 
+}
+.saveBtn:hover{
+  box-shadow:  0 0 30px;
+  background-color: pink;
 }
