@@ -1,26 +1,33 @@
 footer {
-    background-color: #333; /* Footer arka plan rengi */
+    background-color: #57386d; /* Footer arka plan rengi */
     color: #fff; /* Metin rengi */
-    padding: 20px; /* Footer içeriği ile kenarları arasındaki boşluk */
+    padding: 10px; /* Footer içeriği ile kenarları arasındaki boşluk */
     text-align: center; /* Metinleri ortala */
-  }
+    margin-top: 180px;
+    border-radius: 30px;
+}
   
-  footer p {
-    margin-bottom: 10px; /* Paragraf alt boşluk */
-  }
-  
-  nav ul {
+nav ul {
     list-style: none; /* Madde işaretlerini kaldır */
     padding: 0; /* Liste içeriği ile kenarları arasındaki boşluk */
-  }
+}
   
-  nav ul li {
+nav ul li {
     display: inline; /* Liste öğelerini yan yana göster */
     margin: 0 10px; /* Liste öğeleri arasındaki boşluk */
-  }
+}
   
-  nav ul li a {
+nav ul li a {
     color: #fff; /* Bağlantı metin rengi */
     text-decoration: none; /* Bağlantı alt çizgiyi kaldır */
-  }
-  
+}
+.pBox {
+    color: bisque;
+    font-size: larger;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    width: 300px;
+    background-color: #57386d; 
+    margin-left: 130px;
+    margin-top: 120px;
+}

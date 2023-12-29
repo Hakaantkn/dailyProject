@@ -33,7 +33,9 @@ body {
   }
 .box:hover{
     box-shadow: 0 0 30px;
-    color: green;
+    color: white;
+    background-color: #005746;
+
 
   }
 #header {
@@ -46,11 +48,13 @@ body {
     border-radius: 10px;
     background-color: transparent;
     color: white;
-    margin-left: 1330px;
+    margin-left: 1062px;
     transition: box-shadow 0.3s;
     border: 2px solid pink;
-
+    width: 260px;
+    height: 30px;
 }
+
 .saveBtn:hover{
   box-shadow:  0 0 30px;
   background-color: pink;
@@ -59,11 +63,11 @@ body {
 
 
 footer {
-  background-color: black; /* Footer arka plan rengi */
+  background-color: #005746; /* Footer arka plan rengi */
   color: #fff; /* Metin rengi */
   padding: 10px; /* Footer içeriği ile kenarları arasındaki boşluk */
   text-align: center; /* Metinleri ortala */
-  margin-top: 500px;
+  margin-top: 320px;
   border-radius: 30px;
 }
 
