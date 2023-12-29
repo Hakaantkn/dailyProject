@@ -1,0 +1,26 @@
+footer {
+    background-color: #333; /* Footer arka plan rengi */
+    color: #fff; /* Metin rengi */
+    padding: 20px; /* Footer içeriği ile kenarları arasındaki boşluk */
+    text-align: center; /* Metinleri ortala */
+  }
+  
+  footer p {
+    margin-bottom: 10px; /* Paragraf alt boşluk */
+  }
+  
+  nav ul {
+    list-style: none; /* Madde işaretlerini kaldır */
+    padding: 0; /* Liste içeriği ile kenarları arasındaki boşluk */
+  }
+  
+  nav ul li {
+    display: inline; /* Liste öğelerini yan yana göster */
+    margin: 0 10px; /* Liste öğeleri arasındaki boşluk */
+  }
+  
+  nav ul li a {
+    color: #fff; /* Bağlantı metin rengi */
+    text-decoration: none; /* Bağlantı alt çizgiyi kaldır */
+  }
+  

@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 #dailyNote {
         transition: box-shadow 0.3s ease; /* gölge efektinin mause çıktıntan veya girdikten sonra kaç sn duracağını belirler */
         border-radius: 15px;
@@ -26,7 +33,7 @@
   }
 .box:hover{
     box-shadow: 0 0 30px;
-    color: black;
+    color: green;
 
   }
 #header {
@@ -48,3 +55,30 @@
   box-shadow:  0 0 30px;
   background-color: pink;
 }
+
+
+
+footer {
+  background-color: black; /* Footer arka plan rengi */
+  color: #fff; /* Metin rengi */
+  padding: 10px; /* Footer içeriği ile kenarları arasındaki boşluk */
+  text-align: center; /* Metinleri ortala */
+  margin-top: 500px;
+  border-radius: 30px;
+}
+
+nav ul {
+  list-style: none; /* Madde işaretlerini kaldır */
+  padding: 0; /* Liste içeriği ile kenarları arasındaki boşluk */
+}
+
+nav ul li {
+  display: inline; /* Liste öğelerini yan yana göster */
+  margin: 0 10px; /* Liste öğeleri arasındaki boşluk */
+}
+
+nav ul li a {
+  color: #fff; /* Bağlantı metin rengi */
+  text-decoration: none; /* Bağlantı alt çizgiyi kaldır */
+}
+
