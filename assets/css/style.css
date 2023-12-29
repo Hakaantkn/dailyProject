@@ -86,3 +86,28 @@ nav ul li a {
   text-decoration: none; /* Bağlantı alt çizgiyi kaldır */
 }
 
+
+
+/* Mobil cihazlar için medya sorgusu */
+@media screen and (max-width: 480px) {
+  .element {
+    width: 100%; /* Ekranın tamamı genişliği */
+    /* Diğer stillendirme kuralları */
+  }
+}
+
+/* Tabletler için medya sorgusu */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .element {
+    width: 50%; /* Ekranın yarısı genişliği */
+    /* Diğer stillendirme kuralları */
+  }
+}
+
+/* Masaüstü için medya sorgusu */
+@media screen and (min-width: 769px) {
+  .element {
+    width: 30%; /* Ekranın yüzde 30'u genişliği */
+    /* Diğer stillendirme kuralları */
+  }
+}
